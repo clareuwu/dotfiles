@@ -36,7 +36,7 @@ noremap g$ $
 nnoremap ^ g^
 nnoremap g^ ^
 "let mapleader=" "
-colorscheme gruvbox
+"colorscheme gruvbox
 set encoding=utf8
 
 call plug#begin()
@@ -50,10 +50,11 @@ call plug#begin()
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
   Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
-
-
-
+  Plug 'fxn/vim-monochrome'
+  Plug 'wuelnerdotexe/vim-enfocado'
+  Plug 'dikiaap/minimalist'
   " Plug 'dracula/vim'
+  Plug 'connorholyday/vim-snazzy'
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'scrooloose/nerdtree'
   Plug 'mhinz/vim-startify'
@@ -62,6 +63,7 @@ call plug#begin()
   " Plug 'neovim/nvim-lspconfig'
 call plug#end()
 
+colorscheme minimalist
 lua << EOF
 require("nvim-autopairs").setup {}
 EOF
