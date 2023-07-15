@@ -276,3 +276,5 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 " Disable autocomplete in markdown
 autocmd FileType markdown let b:coc_suggest_disable = 1
 " end coc config
+"
+let g:ycm_clangd_args=['--header-insertion=never']

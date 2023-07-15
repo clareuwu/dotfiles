@@ -17,5 +17,6 @@
   ],
   "diagnostic.errorSign": "•",
   "diagnostic.warningSign": "•",
-  "diagnostic.infoSign": "•"
+  "diagnostic.infoSign": "•",
+  "clangd.arguments": ["--header-insertion=never"]
 }
