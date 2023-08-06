@@ -43,7 +43,6 @@ call plug#begin()
   " Plug 'luochen1990/rainbow'
   " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   Plug 'windwp/nvim-autopairs'
-  Plug 'https://codeberg.org/ngn/k.git', {'rtp': 'vim-k'}
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   "Plug 'dense-analysis/ale'
