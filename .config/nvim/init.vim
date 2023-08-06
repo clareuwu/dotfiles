@@ -42,6 +42,8 @@ set encoding=utf8
 call plug#begin()
   " Plug 'luochen1990/rainbow'
   " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'davidosomething/vim-colors-meh'
+  Plug 'widatama/vim-phoenix'
   Plug 'windwp/nvim-autopairs'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
@@ -52,7 +54,7 @@ call plug#begin()
   Plug 'fxn/vim-monochrome'
   Plug 'wuelnerdotexe/vim-enfocado'
   Plug 'dikiaap/minimalist'
-  " Plug 'dracula/vim'
+  Plug 'dracula/vim'
   Plug 'connorholyday/vim-snazzy'
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'scrooloose/nerdtree'
